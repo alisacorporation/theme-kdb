@@ -1,0 +1,157 @@
+body {
+    background-color: #121212;
+    color: #8d8e8e !important;
+}
+
+.javascript {
+    color: #e1a027;
+}
+
+.php {
+    color: #7a86b8;
+}
+
+.node {
+    color: #5fa04e;
+}
+
+.angular {
+    color: #de002d;
+}
+
+.vue {
+    color: #42b883;
+}
+
+.react {
+    color: #087ea4;
+}
+
+.nginx {
+    color: #009900;
+}
+
+.linux {
+    color: #f5d835;
+}
+
+.docker {
+    color: #1f97ee;
+}
+
+.chatgpt {
+    color: #75ab9d;
+}
+
+.html {
+    color: #de4b25
+}
+
+.css {
+    color: #0b72b7
+}
+
+.js {
+    color: #e1a027
+}
+
+.wordpress {
+    color: #00759b
+}
+
+.codeigniter {
+    color: #dd4814
+}
+
+.windows {
+    color: #0078d4
+}
+
+.mariadb {
+    color: #4e629a
+}
+
+.java {
+    color: #e6892e;
+}
+
+.cpp {
+    color: #649ad2;
+}
+
+.bootstrap {
+    color: #722efa;
+}
+
+.fomantic {
+    color: #35bdb2;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #2d2e2f !important;
+}
+
+.border-top {
+    border-top: 1px solid #2d2e2f !important;
+}
+
+.border-1 {
+    border: 1px solid #2d2e2f !important;
+}
+
+.ui.table > thead > tr > th {
+    padding: .5em .5em !important;
+}
+
+.main.container {
+    margin-top: 0;
+}
+
+.wireframe {
+    margin-top: 2em;
+}
+
+.ui.footer.segment {
+    margin: 1em 0;
+    padding: 2.5em 0 2.5em;
+}
+
+.ui.text.container {
+    max-width: inherit !important;
+}
+
+.border-radius-0 {
+    border-radius: 0 !important;
+}
+
+.ui[class*="very compact"].table > tbody > tr > td, .ui[class*="very compact"].table > tfoot > tr > td, .ui[class*="very compact"].table > tr > td {
+    padding: 0.2em 0.6em !important;
+}
+
+.top-nav-right-search {
+    margin: -1em .2em !important;
+    padding: 0 !important;
+    max-height: 30px !important;
+}
+
+.ui.table {
+    font-size: .8em !important;
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+.custom-x-grid-padding-table-posts {
+    padding-left: 1em !important;
+    padding-right: .5em !important;
+}
+
+.custom-x-grid-padding-side-menu {
+    padding-left: .5em !important;
+    padding-right: 1em;
+}
+
+.ui.table > tbody > tr > td, .ui.table > tr > td {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 720px;
+    text-overflow: ellipsis;
+}

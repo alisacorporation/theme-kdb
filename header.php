@@ -7,30 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Site Properties -->
-    <title><?php bloginfo( 'name' ) ?></title>
-	<?php wp_head(); ?>
+	<?php
+	require_once get_template_directory() . '/fomantic-walker-nav-menu.php';
+	wp_head();
+	?>
 </head>
 <body>
 
-<div class="ui inverted menu border-bottom">
-    <div class="ui container">
-        <a href="./index.html" class="header item">
-            xeon :: kdb
+<!-- Start top menu -->
+<div class="ui inverted menu border-bottom custom-height-mod">
+    <div class="ui container" id="top_menu">
+        <a href="<?= get_bloginfo( 'url' ) ?>" class="header item">
+			<?php
+			if ( function_exists( 'the_custom_logo' ) ) { ?>
+                <img class="logo" src="<?= wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ) )[0] ?>" alt="">
+			<?php }
+			echo strtoupper( get_bloginfo( 'name' ) )
+			?>
         </a>
-        <!--        <a href="#" class="item">Home</a>
-				<a href="#" class="item">Add post</a>
-				<a href="#" class="item">Contacts</a>
-				<div class="ui simple dropdown item inverted">
-					Account <i class="dropdown icon"></i>
-					<div class="menu">
-						<a class="item" href="#">Log in</a>
-						<a class="item" href="#">Sign up</a>
-						<div class="divider"></div>
-						<div class="header">Recover</div>
-						<a class="item" href="#">Username</a>
-						<a class="item" href="#">Password</a>
-					</div>
-				</div>-->
+		<?php
+		wp_nav_menu( [
+			             'menu'           => 'primary',
+			             'theme_location' => 'primary',
+			             'items_wrap'     => '%3$s',
+			             'container'      => 'ul',
+			             'menu_class'     => 'ui menu',
+			             'walker'         => new Fomantic_Walker_Nav_Menu()
+		             ] )
+		?>
         <div class="right menu">
             <div class="item">
                 <div class="ui transparent inverted icon input">
@@ -41,3 +45,7 @@
         </div>
     </div>
 </div>
+<!-- End Top menu -->
+
+<!-- Start main container -->
+<div class="ui main text container">

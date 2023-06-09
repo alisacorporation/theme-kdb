@@ -1,87 +1,223 @@
+:root {
+    --var-javascript: #e1a027;
+    --var-php: #7a86b8;
+    --var-node: #5fa04e;
+    --var-angular: #dd4814;
+    --var-vue: #42b883;
+    --var-vue-js: #42b883;
+    --var-react: #087ea4;
+    --var-nginx: #009900;
+    --var-linux: #f5d835;
+    --var-docker: #1f97ee;
+    --var-chatgpt: #75ab9d;
+    --var-html: #de4b25;
+    --var-css: #0b72b7;
+    --var-js: #e1a027;
+    --var-wordpress: #00759b;
+    --var-codeigniter: #dd4814;
+    --var-windows: #0078d4;
+    --var-mariadb: #4e629a;
+    --var-java: #e6892e;
+    --var-cpp: #649ad2;
+    --var-bootstrap: #722efa;
+    --var-fomantic: #35bdb2;
+    --var-bash: #fff;
+    --var-macos: #707070;
+}
+
 .javascript {
-    color: #e1a027;
+    color: var(--var-javascript);
 }
 
 .php {
-    color: #7a86b8;
+    color: var(--var-php);
 }
 
 .node {
-    color: #5fa04e;
+    color: var(--var-node);
 }
 
 .angular {
-    color: #de002d;
+    color: var(--var-angular);
 }
 
 .vue {
-    color: #42b883;
+    color: var(--var-vue);
 }
 
 .vue-js {
-    color: #42b883;
+    color: var(--var-vue-js);
 }
 
 .react {
-    color: #087ea4;
+    color: var(--var-react);
 }
 
 .nginx {
-    color: #009900;
+    color: var(--var-nginx);
 }
 
 .linux {
-    color: #f5d835;
+    color: var(--var-linux);
 }
 
 .docker {
-    color: #1f97ee;
+    color: var(--var-docker);
 }
 
 .chatgpt {
-    color: #75ab9d;
+    color: var(--var-chatgpt);
 }
 
 .html {
-    color: #de4b25
+    color: var(--var-html)
 }
 
 .css {
-    color: #0b72b7
+    color: var(--var-css)
 }
 
 .js {
-    color: #e1a027
+    color: var(--var-vue-js)
 }
 
 .wordpress {
-    color: #00759b
+    color: var(--var-wordpress)
 }
 
 .codeigniter {
-    color: #dd4814
+    color: var(--var-codeigniter)
 }
 
 .windows {
-    color: #0078d4
+    color: var(--var-windows)
 }
 
 .mariadb {
-    color: #4e629a
+    color: var(--var-mariadb)
 }
 
 .java {
-    color: #e6892e;
+    color: var(--var-java);
 }
 
 .cpp {
-    color: #649ad2;
+    color: var(--var-cpp);
 }
 
 .bootstrap {
-    color: #722efa;
+    color: var(--var-bootstrap);
 }
 
 .fomantic {
-    color: #35bdb2;
+    color: var(--var-fomantic);
+}
+
+.bash {
+    color: var(--var-bash);
+}
+
+.macos {
+    color: var(--var-macos);
+}
+
+.ui.javascript.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-javascript);
+}
+
+.ui.php.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-php);
+}
+
+.ui.node.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-node);
+}
+
+.ui.angular.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-angular);
+}
+
+.ui.vue.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-vue);
+}
+
+.ui.vue-js.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-vue-js);
+}
+
+.ui.react.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-react);
+}
+
+.ui.nginx.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-nginx);
+}
+
+.ui.linux.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-linux);
+}
+
+.ui.docker.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-docker);
+}
+
+.ui.chatgpt.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-chatgpt);
+}
+
+.ui.html.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-html);
+}
+
+.ui.css.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-css);
+}
+
+.ui.js.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-js);
+}
+
+.ui.wordpress.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-wordpress);
+}
+
+.ui.codeigniter.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-codeigniter);
+}
+
+.ui.windows.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-windows);
+}
+
+.ui.mariadb.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-mariadb);
+}
+
+.ui.java.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-java);
+}
+
+.ui.cpp.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-cpp);
+}
+
+.ui.bootstrap.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-bootstrap);
+}
+
+.ui.fomantic.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-fomantic);
+}
+
+.ui.bash.segment.segment.segment.segment.segment:not(.inverted) {
+    border-top: 2px solid var(--var-bash);
+}
+
+.ui.macos.segment {
+    border-top: 2px solid var(--var-macos);
+}
+
+/* I dont know what is that, thats why we should use names, that we understand :D */
+.fc-imp {
+    color: #8d8e8e !important;
 }

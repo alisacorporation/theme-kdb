@@ -26,26 +26,22 @@
 			?>
         </a>
 		<?php
-		wp_nav_menu( [
-			             'menu'           => 'primary',
-			             'theme_location' => 'primary',
-			             'items_wrap'     => '%3$s',
-			             'container'      => 'ul',
-			             'menu_class'     => 'ui menu',
-			             'walker'         => new Fomantic_Walker_Nav_Menu()
-		             ] )
+		if ( has_nav_menu( 'primary' ) ) {
+			wp_nav_menu( [
+				             'menu'           => 'primary',
+				             'theme_location' => 'primary',
+				             'items_wrap'     => '%3$s',
+				             'container'      => 'ul',
+				             'menu_class'     => 'ui menu',
+				             'walker'         => new Fomantic_Walker_Nav_Menu()
+			             ] );
+		}
 		?>
         <div class="right menu">
             <div class="item">
-                <div class="ui transparent inverted icon input">
-                    <i class="search icon"></i>
-                    <input type="text" placeholder="Search">
-                </div>
+				<?= get_search_form() ?>
             </div>
         </div>
     </div>
 </div>
 <!-- End Top menu -->
-
-<!-- Start main container -->
-<div class="ui main text container">

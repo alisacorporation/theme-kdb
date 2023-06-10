@@ -1,10 +1,7 @@
-</div>
-<!-- End main container-->
-
 <!-- Start footer-->
 <div class="ui fixed bottom inverted  vertical footer segment border-top">
     <div class="ui center aligned container">
-        <div class="ui stackable inverted divided grid">
+        <!--<div class="ui stackable inverted divided grid">
             <div class="three wide column">
                 <h4 class="ui inverted header">Docs</h4>
                 <div class="ui inverted link list">
@@ -37,13 +34,13 @@
                 <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
             </div>
         </div>
-        <div class="ui inverted section divider"></div>
-        <div class="ui horizontal inverted small divided link list">
-            <a class="item" href="#">Site Map</a>
-            <a class="item" href="#">Contact Us</a>
-            <a class="item" href="#">Terms and Conditions</a>
-            <a class="item" href="#">Privacy Policy</a>
+        <div class="ui inverted section divider"></div>-->
+        <div class="ui horizontal inverted small link list">
+            <div class="item">
+                Copyright <?= get_bloginfo( 'name' ) ?> &copy; 2023
+            </div>
         </div>
+
     </div>
 </div>
 <!-- End footer -->

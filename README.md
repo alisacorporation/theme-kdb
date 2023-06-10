@@ -1,9 +1,10 @@
 # theme-kdb
-Wordpress theme KDB - knowledge database
+Wordpress theme: Knowledge database (kdb)  
 
-CMS: Wordpress  
-Version:	6.2.2  
-Name:	Knowledge database (kdb)  
+CMS: Wordpress (Version:	6.2.2  )  
+PHP: 8.1  
+
+Theme Name:	Knowledge database (kdb)  
 Version:	1.0  
 Author:	Alisa Corporation  
 Author website:	https://xeon.lv  

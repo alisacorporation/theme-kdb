@@ -1,127 +1,139 @@
 body {
-    background-color: #121212;
-    color: #8d8e8e !important;
+  background-color: #121212;
+  color: #8d8e8e;
 }
 
-/* ------------------------------------ */
-
-/* etc ^ */
-
-.border-radius-0 {
-    border-radius: 0 !important;
-}
-
-.border-bottom {
-    border-bottom: 1px solid #2d2e2f !important;
-}
-
-.border-top {
-    border-top: 1px solid #2d2e2f !important;
-}
-
-.border-1 {
-    border: 1px solid #2d2e2f !important;
-}
-
-/* etc $ */
-
-/* ------------------------------------ */
-
-/* Top navigation ^ */
-
+/* Top navigation */
 .top-nav-right-search {
-    margin: -1em .2em !important;
-    padding: 0 !important;
-    max-height: 30px !important;
+  margin: -1em .2em;
+  padding: 0;
+  max-height: 30px;
 }
 
 .ui.menu > #top_menu > a.item {
-    color: rgba(255, 255, 255, .5) !important;
+  color: rgba(255, 255, 255, .5);
 }
 
 .ui.menu > #top_menu > a.item:hover {
-    color: rgba(255, 255, 255, .9) !important;
+  color: rgba(255, 255, 255, .9);
 }
 
 body > div.ui.menu {
-    border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .ui.menu.custom-height-mod {
-    max-height: 32px !important;
+  max-height: 32px;
 }
 
 .ui.menu .item img.logo {
-    margin-right: .75em !important;
-    max-width: 24px !important;
-    max-height: 24px !important;
+  margin-right: .75em;
+  max-width: 24px;
+  max-height: 24px;
 }
 
 .ui.header {
-    margin: 1rem;
+  margin: 1rem;
 }
 
-/* Top navigation $ */
+/* Posts */
+code {
+  background: #000 !important;
+  color: limegreen !important;
+  user-select: all !important;
+  -moz-user-select: all !important;
+  -webkit-user-select: all !important;
+  cursor: pointer !important;
+  font-size: .9em !important;
+}
 
-/* ------------------------------------ */
+/*code::before {
+content: '$ ' !important;
+}*/
 
-/* Posts container, table ^ */
-
-.main.container {
+  /* Posts container */
+  .main.container {
     margin-top: 0;
-}
+  }
 
-.ui.text.container {
+  .ui.text.container {
     max-width: inherit !important;
     padding: 1em 0;
-}
+  }
 
-.ui.table {
-    font-size: .8em !important;
-    color: rgba(255, 255, 255, .5) !important;
-}
+  .ui.grid {
+    margin: 0 !important;
+  }
 
-.ui.table > thead > tr > th {
-    padding: .35em .5em !important;
-    color: rgba(255, 255, 255, .8) !important;
-}
+  /* Posts table */
+  .ui.table {
+    font-size: .8em;
+    color: rgba(255, 255, 255, .5);
+  }
 
-.custom-x-grid-padding-table-posts {
-    padding-left: 1em !important;
-    padding-right: .5em !important;
-}
+  .ui.table > thead > tr > th {
+    padding: .35em .5em;
+    color: rgba(255, 255, 255, .7);
+  }
 
-.ui.table > tbody > tr > td, .ui.table > tr > td {
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 720px;
-    text-overflow: ellipsis;
-}
+  .custom-x-grid-padding-table-posts {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
-.ui[class*="very compact"].table > tbody > tr > td {
-    padding: 0.2em 0.6em !important;
-}
+  .ui.table > tbody > tr,
+  .ui.table > tbody > tr a {
+    color: rgba(255, 255, 255, .6);
+  }
 
-/* Posts table $ */
+  .ui.table > tbody > tr:hover,
+  .ui.table > tbody > tr:hover a {
+    color: rgba(255, 255, 255, .9);
+  }
 
-/* ------------------------------------ */
+  /*.ui.table > tbody > tr > td,*/
+  /*.ui.table > tr > td {*/
+  /*    white-space: nowrap;*/
+  /*    overflow: hidden;*/
+  /*    max-width: 720px;*/
+  /*    text-overflow: ellipsis;*/
+  /*}*/
 
-/* Side menu ^ */
+  .ui[class*="very compact"].table > tbody > tr > td {
+    padding: 0.2em 0.6em;
+  }
 
-.custom-x-grid-padding-side-menu {
-    padding-left: .5em !important;
+  /* Side menu */
+  .custom-x-grid-padding-side-menu {
+    padding-left: .5em;
     padding-right: 1em;
-}
+  }
 
-/* Side menu $ */
+  /* etc */
+  .border-radius-0 {
+    border-radius: 0 !important;;
+  }
 
-/* ------------------------------------ */
+  .border-bottom {
+    border-bottom: 1px solid #2d2e2f !important;;
+  }
 
-/* Footer ^ */
+  .border-top {
+    border-top: 1px solid #2d2e2f !important;;
+  }
 
-.ui.footer.segment {
-    margin: 1em 0;
-    padding: 2.5em 0 2.5em;
-}
+  .border-1 {
+    border: 1px solid #2d2e2f !important;
+  }
 
-/* Footer $ */
+  .title-op-70 {
+    color: rgba(255, 255, 255, .70);
+  }
+
+  .search-result-padding {
+    margin: 1.5em 0 1.5em !important;
+  }
+
+  .desc-bg {
+    background: #222222 !important;
+  }

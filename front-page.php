@@ -4,8 +4,9 @@
         <div class="ui grid">
             <div class="thirteen wide column custom-x-grid-padding-table-posts">
 				<?php
-				if ( have_posts() ) { ?>
-                <table class="ui table striped black inverted very compact border-radius-0 border-1 selectable celled unstackable">
+				if (have_posts())
+				{ ?>
+                <table class="ui table striped black inverted very compact border-radius-0 border-1 selectable celled">
                     <thead>
                     <tr>
                         <th class="center aligned">Date</th>
@@ -16,18 +17,19 @@
                     </thead>
                     <tbody>
 					<?php
-					while ( have_posts() ) {
+					while (have_posts())
+					{
 						the_post();
-						get_template_part( 'template-parts/content', 'post' );
+						get_template_part('template-parts/content', 'post');
 					}
-
-					} else {
-						get_template_part( 'template-parts/no', 'content' );
+					} else
+					{
+						get_template_part('template-parts/no', 'content');
 					} ?>
                     </tbody>
                 </table>
             </div>
-            <div class="three wide column custom-x-grid-padding-side-menu">
+            <div class="three wide column">
 				<?php kdb_side_menu_render(); ?>
             </div>
         </div>

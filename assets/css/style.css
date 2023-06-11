@@ -64,6 +64,10 @@ content: '$ ' !important;
   .ui.grid {
     margin: 0 !important;
   }
+  .ui.grid>* {
+    padding-left: 0 !important;
+    padding-right: 1rem !important;
+  }
 
   /* Posts table */
   .ui.table {

@@ -14,3 +14,5 @@ Author website:	https://kdb.xeon.lv
 Parent theme:	None  
 Theme features	core-block-patterns, widgets-block-editor, title-tag, custom-logo, automatic-feed-links, menus  
 Auto-updates:	Disabled  
+
+For post views I've made KISS wordpress plugin (Unique Post Views): https://github.com/alisacorporation/unique-post-views

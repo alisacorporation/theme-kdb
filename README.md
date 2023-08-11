@@ -15,4 +15,6 @@ Parent theme:	None
 Theme features	core-block-patterns, widgets-block-editor, title-tag, custom-logo, automatic-feed-links, menus  
 Auto-updates:	Disabled  
 
+I still not implemented pagination script :(
+
 For post views I've made KISS wordpress plugin (Unique Post Views): https://github.com/alisacorporation/unique-post-views

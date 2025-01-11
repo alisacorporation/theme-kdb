@@ -9,8 +9,7 @@ PHP: 8.1
 
 Theme Name:	Knowledge database (kdb)  
 Version:	1.0  
-Author:	Alisa Corporation  
-Author website:	https://kdb.xeon.lv  
+Author:	Alisa Corporation
 Parent theme:	None  
 Theme features	core-block-patterns, widgets-block-editor, title-tag, custom-logo, automatic-feed-links, menus  
 Auto-updates:	Disabled  
